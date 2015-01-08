@@ -1,0 +1,10 @@
+vim74/
+
+vimfiles/colors/
+vimfiles/compiler/
+vimfiles/doc/
+vimfiles/ftdetect/
+vimfiles/ftplugin/
+vimfiles/indent/
+vimfiles/keymap/
+vimfiles/syntax/
