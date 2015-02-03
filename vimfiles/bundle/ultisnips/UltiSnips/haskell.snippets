@@ -67,17 +67,30 @@ data ${1:name} = ${1:name}
      }
 endsnippet
 
+
+# Language pragma's
+
 snippet pragma "LanguagePragma"
 {-# LANGUAGE ${1:extentions} #-}
 ${2}
 endsnippet
 
-snippet qquote "QuasiQoutes"
+snippet qq "QuasiQoutes"
 {-# LANGUAGE QuasiQuotes #-}
 ${1}
 endsnippet
 
-snippet ostrings "OverloadedStrings"
+snippet th "Template Haskell"
+{-# LANGUAGE TemplateHaskell   #-}
+${1}
+endsnippet
+
+snippet tf "tf"
+{-# LANGUAGE TypeFamilies      #-}
+${1}
+endsnippet
+
+snippet os "OverloadedStrings"
 {-# LANGUAGE OverloadedStrings #-}
 ${1}
 endsnippet
